@@ -1,0 +1,70 @@
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+    --Font1: "Young Serif", serif;
+    --Font2: "Outfit", sans-serif;
+}
+h1{
+    font-family: var(--Font1);
+    text-align: center;
+}
+h2 {
+    font-family: var(--Font2);
+    color: var(--Brown800);
+    text-align: center;
+}
+
+h3 {
+    font-family: var(--Font2);
+    color: var(--Rose800);
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--Rose50);
+  }
+  
+  header {
+    text-align: center;
+  }
+
+  
+  .recipe-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .nutrition-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .nutrition-table th,
+  .nutrition-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .nutrition-table th {
+    background-color: #f2f2f2;
+  }
